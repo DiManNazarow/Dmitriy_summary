@@ -1,0 +1,248 @@
+body {
+
+    background-size: cover;
+    background-image: url(https://static.wixstatic.com/media/11062b_6743da5900054f1f8e69f53302930a6af000.jpg);
+    margin:0;
+
+  }
+
+  .info_container{
+    position: relative;
+    text-align: center;
+  }
+
+  .experience_container{
+    width: 100%;
+    height: 350px;
+    background-color: #EDEFF5;
+    margin:0;
+  }
+
+  .study_container{
+    width: 100%;
+    height: 350px;
+    background-color: #EDEFF5;
+    margin:0;
+  }
+
+  .skills_container{
+    width: 100%;
+    height: 732px;
+  }
+
+  .about_me_container{
+    width: 100%;
+    height: 400px;
+    background-color: #EDEFF5;
+  }
+
+  .contacts_container{
+    width: 100%;
+    height: 300px;
+    background-color: #2E4975;
+  }
+
+  .avatar{
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+
+  .block{
+    height: 100px;
+    width: 100%;
+    background-color: #EDEFF5;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .title{
+    padding-top: 16px;
+    padding-left: 256px;
+  }
+
+  .red_line{
+    height: 6px;
+    width: 50px;
+    margin-left: 256px;
+    margin-top: 16px;
+    background-color:#ff0000;
+  }
+
+  .white_line{
+    height: 6px;
+    width: 50px;
+    margin-left: 256px;
+    margin-top: 16px;
+    background-color: white;
+  }
+
+  .tab_container{
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-top: 32px;
+  }
+
+  .tab_experience{
+      width: 100%;
+      float:left
+    }
+
+  .tab_study{
+    width: 100%;
+    float:left
+  }
+
+  .tab_experience:nth-child(1){
+    width: 30%;
+  }
+
+  .tab_experience:nth-child(2){
+    width: 40%;
+  }
+
+  .tab_experience:nth-child(3){
+    width: 30%;
+  }
+
+  .tab_study:nth-child(1){
+    width: 50%;
+  }
+
+  .tab_study:nth-child(2){
+    width: 50%;
+  }
+
+  .tab_layout{
+    width: 300px;
+  }
+
+  .circle{
+    width: 200px;
+    height: 200px;
+    background-color: #EDEFF5;
+    border-radius: 50%;
+    position: absolute;
+    right:25%;
+    left:50%;
+    margin-left:-100px;
+    z-index: 10;
+    border: 10px solid #EDEFF5;
+  }
+
+  .up_tab_container{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    padding-top: 32px;
+  }
+
+  .bottom_tab_container{
+    width: 900px;
+    height: 300px;
+    position: relative;
+  }
+
+  .skill_tab_1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: table;
+    text-align: center;
+    position: absolute;
+    left: 0;
+  }
+
+  .skill_tab_2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #BBC8DD;
+    display: table;
+    text-align: center;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+  }
+
+  .skill_tab_3{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+     display: table;
+    text-align: center;
+    position: absolute;
+    right: 0;
+  }
+
+  .skill_tab_4{
+    width: 300px;
+    height: 300px;
+    background-color: #BBC8DD;
+    display: table;
+    text-align: center;
+    position: absolute;
+    left: 0;
+  }
+
+  .skill_tab_5{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: white;
+    display: table;
+    text-align: center;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+  }
+
+  .skill_tab_6{
+    width: 300px;
+    height: 300px;
+    background-color: #BBC8DD;
+     display: table;
+    text-align: center;
+    position: absolute;
+    right: 0;
+  }
+
+  .text_container{
+    padding-left: 256px;
+    padding-top: 32px
+  }
+
+
+  p.p_title {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 350%;
+      color: white;
+  }
+
+  p.small_title{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: black;
+  }
+
+  p.skill_title{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  t {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+
+  t.t_white{
+    color: white;
+  }
+
+  l{
+    color: #8a99ca;
+  }
+
+
